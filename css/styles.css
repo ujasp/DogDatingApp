@@ -1,0 +1,177 @@
+#title{
+  background-color:#d84c73
+}
+
+#features{
+  padding: 10%
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.brand-name{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color:white;
+}
+
+.container-fluid{
+  padding: 3% 10% 0;
+}
+
+.navigation{
+  margin-bottom:5%;
+  padding: 0;
+
+}
+
+.title-img{
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 20%;
+}
+
+@media (max-width: 1000px) {
+
+  .title-img{
+    width: 50%;
+    transform: rotate(0);
+    position: static;
+    padding: 0 0 10%
+
+  }
+
+  #title{
+    text-align: center;
+  }
+}
+
+.main-title{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 800;
+  color: white;
+  margin: 10% 0;
+}
+
+.secondary-title{
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 800;
+  padding: 5% 20% 5%;
+}
+
+.download-btn{
+  margin: 3% 0 10% 0;;
+  line-height: 1.5
+
+}
+
+#features{
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.icon{
+  color: #ff8484;
+  margin-bottom: 10%;
+
+}
+
+.icon:hover{
+  color: #d84c73;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  padding:0 ;
+
+}
+
+p{
+  color: grey;
+}
+
+em{
+  color: white;
+  padding: 0 3%;
+}
+
+/* TESTIMONIAL SECTION */
+#testimonials{
+  background-color: #d84c73;
+  text-align: center;
+  padding: 5% 0;
+}
+
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+}
+
+.testimonial-text{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+
+/* press section */
+
+#press{
+  background-color: #d84c73;
+  border-color:  #d84c73;
+  border-width: thick;
+}
+.press-img{
+  margin:2%;
+  width: 20%;
+}
+
+/* pricing section */
+#pricing{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+#pricing h2{
+  padding: 0;
+  color: black;
+  margin: 0 0 1% ;
+}
+#pricing p{
+  margin-bottom: 7%;
+}
+
+.price-column{
+  padding: 2%;
+}
+
+/* Call to Action  */
+#cta{
+  text-align: center;
+  background-color: #d84c73;
+  color: white;
+  padding: 7% 15%;
+}
+
+#footer{
+  padding: 7% 15%;
+  text-align:center;;
+}
